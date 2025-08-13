@@ -1,0 +1,24 @@
+step1 : 
+npm init playwright@latest
+=======================
+Give True(T) for all
+
+
+Step 2 test : 
+npx playwright test
+
+Or 
+
+npx playwright test --ui
+npx playwright test --debug
+
+npx playwright show-report
+npx playwright test --last-failed  // only execute last failed case
+
+Tools
+npx playwright codegen
+
+
+playwright.config.js
+===============================
+headless: true / false (true will show browwer process)
