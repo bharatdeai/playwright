@@ -3,7 +3,7 @@ env:
   MY_SECRET: ${{ secrets.URL }}
 on:
   schedule:
-    - cron: '45 11 * * *' # Runs daily at 11:45 UTC
+    - cron: '40 11 * * *' # Runs daily at 11:45 UTC
   workflow_dispatch:
   push:
     branches: [ main, master ]
